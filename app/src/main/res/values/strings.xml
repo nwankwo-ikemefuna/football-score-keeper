@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Football Score Keeper</string>
+    <!--Team Name-->
+    <string name="activity_team_name_a">Team A</string>
+    <string name="activity_team_name_b">Team B</string>
+    <!--Score Buttons-->
+    <string name="activity_team_goal_score_btn_text">Goal!!!</string>
+    <string name="activity_team_possession_btn_text">Possession</string>
+    <string name="activity_team_free_kick_btn_text">Free Kick</string>
+    <string name="activity_team_corner_kick_btn_text">Corner Kick</string>
+    <string name="activity_team_yellow_card_btn_text">Yellow Card</string>
+    <string name="activity_team_red_card_btn_text">Red Card</string>
+    <string name="activity_reset_btn_text">Reset</string>
+    <!--Score Labels-->
+    <string name="activity_label_possession">Possession</string>
+    <string name="activity_label_free_kicks">F. Kicks</string>
+    <string name="activity_label_corner_kicks">C. Kicks</string>
+    <string name="activity_label_yellow_cards">Y. Cards</string>
+    <string name="activity_label_red_cards">R. Cards</string>
+</resources>

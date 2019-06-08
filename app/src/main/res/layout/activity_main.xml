@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="48dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/activity_team_column">
+
+                <TextView
+                    android:text="@string/activity_team_name_a"
+                    style="@style/activity_team_name" />
+
+                <TextView
+                    android:id="@+id/team_a_goal_score"
+                    android:text="0"
+                    style="@style/activity_team_goal_score" />
+
+                <TextView
+                    android:id="@+id/team_a_possession"
+                    android:text="50%"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_a_free_kicks"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_a_corner_kicks"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_a_yellow_cards"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_a_red_cards"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <Button
+                    android:text="@string/activity_team_goal_score_btn_text"
+                    android:onClick="incrementTeamAGoals"
+                    android:background="#328103"
+                    android:textColor="#ffffff"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_possession_btn_text"
+                    android:onClick="incrementTeamAPossession"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_free_kick_btn_text"
+                    android:onClick="incrementTeamAFreeKick"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_corner_kick_btn_text"
+                    android:onClick="incrementTeamACornerKick"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_yellow_card_btn_text"
+                    android:onClick="incrementTeamAYellowCards"
+                    android:background="#FFC107"
+                    android:textColor="#000000"
+                    style="@style/activity_team_score_btn"/>
+
+                <Button
+                    android:text="@string/activity_team_red_card_btn_text"
+                    android:onClick="incrementTeamARedCards"
+                    android:background="#D10A29"
+                    android:textColor="#ffffff"
+                    style="@style/activity_team_score_btn"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/activity_team_column">
+
+                <TextView
+                    style="@style/activity_team_name" />
+
+                <TextView
+                    android:text=""
+                    style="@style/activity_score_label_goals" />
+
+                <TextView
+                    android:text="@string/activity_label_possession"
+                    style="@style/activity_score_label" />
+
+                <TextView
+                    android:text="@string/activity_label_free_kicks"
+                    style="@style/activity_score_label" />
+
+                <TextView
+                    android:text="@string/activity_label_corner_kicks"
+                    style="@style/activity_score_label" />
+
+                <TextView
+                    android:text="@string/activity_label_yellow_cards"
+                    style="@style/activity_score_label" />
+
+                <TextView
+                    android:text="@string/activity_label_red_cards"
+                    style="@style/activity_score_label" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/activity_team_column">
+
+                <TextView
+                    android:text="@string/activity_team_name_b"
+                    style="@style/activity_team_name" />
+
+                <TextView
+                    android:id="@+id/team_b_goal_score"
+                    android:text="0"
+                    style="@style/activity_team_goal_score" />
+
+                <TextView
+                    android:id="@+id/team_b_possession"
+                    android:text="50%"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_b_free_kicks"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_b_corner_kicks"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_b_yellow_cards"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <TextView
+                    android:id="@+id/team_b_red_cards"
+                    android:text="0"
+                    style="@style/activity_team_extra_scores" />
+
+                <Button
+                    android:text="@string/activity_team_goal_score_btn_text"
+                    android:onClick="incrementTeamBGoals"
+                    android:background="#328103"
+                    android:textColor="#ffffff"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_possession_btn_text"
+                    android:onClick="incrementTeamBPossession"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_free_kick_btn_text"
+                    android:onClick="incrementTeamBFreeKick"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_corner_kick_btn_text"
+                    android:onClick="incrementTeamBCornerKick"
+                    style="@style/activity_team_score_btn" />
+
+                <Button
+                    android:text="@string/activity_team_yellow_card_btn_text"
+                    android:onClick="incrementTeamBYellowCards"
+                    android:background="#FFC107"
+                    android:textColor="#000000"
+                    style="@style/activity_team_score_btn"/>
+
+                <Button
+                    android:text="@string/activity_team_red_card_btn_text"
+                    android:onClick="incrementTeamBRedCards"
+                    android:background="#D10A29"
+                    android:textColor="#ffffff"
+                    style="@style/activity_team_score_btn"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:text="@string/activity_reset_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:onClick="resetScore" />
+
+    </RelativeLayout>
+
+</ScrollView>
