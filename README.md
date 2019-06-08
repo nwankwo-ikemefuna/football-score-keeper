@@ -1,2 +1,2 @@
 # score-keeper-test
-Testing upload via command line
+Football Score Keeper is an Android application that keeps count of scores in a Football (Soccer) match.
